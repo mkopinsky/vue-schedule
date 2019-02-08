@@ -3,8 +3,8 @@
     <WeeklySchedule style="float: left"/>
     <div class="schedules">
       <h2>Schedules</h2>
-      <p><div class="swatch blue">&nbsp;</div> Nights/weekends</p>
-      <p><div class="swatch pink">&nbsp;</div> Business hours</p>
+      <p><span class="swatch blue">&nbsp;</span> Nights/weekends</p>
+      <p><span class="swatch pink">&nbsp;</span> Business hours</p>
       <p><button>Add schedule</button></p>
       <p></p>
       <p>Select a schedule and then click and drag to apply that schedule to hours of the week.</p>
