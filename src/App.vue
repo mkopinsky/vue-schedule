@@ -1,6 +1,14 @@
 <template>
   <div id="app">
-    <WeeklySchedule />
+    <WeeklySchedule style="float: left"/>
+    <div class="schedules">
+      <h2>Schedules</h2>
+      <p><div class="swatch blue">&nbsp;</div> Nights/weekends</p>
+      <p><div class="swatch pink">&nbsp;</div> Business hours</p>
+      <p><button>Add schedule</button></p>
+      <p></p>
+      <p>Select a schedule and then click and drag to apply that schedule to hours of the week.</p>
+    </div>
   </div>
 </template>
 
@@ -16,6 +24,23 @@ export default {
 </script>
 
 <style>
+.schedules {
+  float: left;
+  padding: 30px;
+  text-align: left;
+}
+.swatch {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+.blue {
+  background-color: aliceblue;
+}
+.pink {
+  background-color: lightpink;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
